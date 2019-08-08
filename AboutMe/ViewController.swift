@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var nameLabel: UILabel!
+	@IBOutlet weak var hobbiesLabel: UILabel!
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+
+
+		nameLabel.text = nil
+		hobbiesLabel.text = nil
 	}
 
-
+	@IBAction func introduceYourself(_ sender: UIButton) {
+		nameLabel.text = "Percy Ngan"
+		hobbiesLabel.text = "Coding, Reading, Writing, Movies"
+		
+	}
+	
 }
 
