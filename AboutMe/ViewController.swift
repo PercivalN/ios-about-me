@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 	@IBAction func introduceYourself(_ sender: UIButton) {
 		nameLabel.text = "Percy Ngan"
 		hobbiesLabel.text = "Coding, Reading, Writing, Movies"
-		
+		po(print("this is the comand"))
 	}
 	
 }
